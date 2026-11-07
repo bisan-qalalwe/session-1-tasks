@@ -3,11 +3,17 @@ using namespace std;
 
 int main() {
 	
-	double x,y;
-	cin>>x>>y;
-	cout<<x<<'+'<<y<<'='<<x+y<<endl;
-	cout<<x<<'*'<<y<<'='<<x*y<<endl;
-	cout<<x<<'-'<<y<<'='<<x-y<<endl;
+	long long x, y;
+    char op;
+	cin>>x>>op>>y;
+if(op=='+')
+cout<<x+y<<endl;
+if(op=='-')	
+cout<<x-y<<endl;
+if(op=='*')
+cout<<x*y<<endl;
+if(op=='/')
+cout<<x/y<<endl;
 	
 	return 0;
 }
